@@ -22,7 +22,7 @@ Enjoy watching!
 <kbd>Esc</kbd> or <kbd>Backspace</kbd> for menu  
 <kbd>2x Esc</kbd> or <kbd>2x Backspace</kbd> to exit application  
 
-Navigation also works with mouse
+Navigation also works with mouse but is not recommended!
 
 ## License and Credits
 

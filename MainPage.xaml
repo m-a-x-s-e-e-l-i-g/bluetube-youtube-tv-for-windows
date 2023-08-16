@@ -10,7 +10,6 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <Button HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontSize="40" FontWeight="Bold">Loading...</Button> <!-- This button helps with WebView2 focusing issues -->
         <controls:WebView2 Name="webView">
         </controls:WebView2>
     </Grid>

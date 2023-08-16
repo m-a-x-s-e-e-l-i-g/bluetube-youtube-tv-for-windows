@@ -18,7 +18,7 @@ Enjoy watching!
 ## Keys:
 <kbd>Arrows</kbd> Navigate across the interface  
 <kbd>Enter</kbd> or <kbd>LMB</kbd> as the OK button  
-<kbd>Hold Enter</kbd> for extra options
+<kbd>Hold Enter</kbd> for extra options. 
 <kbd>Esc</kbd> or <kbd>Backspace</kbd> for menu  
 <kbd>2x Esc</kbd> or <kbd>2x Backspace</kbd> to exit application  
 

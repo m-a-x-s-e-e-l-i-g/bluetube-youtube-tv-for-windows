@@ -28,7 +28,6 @@ namespace YouTube_TV_on_Windows
             currentView.AppViewBackButtonVisibility = AppViewBackButtonVisibility.Collapsed;
             currentView.BackRequested += CurrentView_BackRequested;
             loadYoutube();
-            webView.Focus(FocusState.Programmatic);
         }
 
         private void CurrentView_BackRequested(object sender, BackRequestedEventArgs e)
@@ -39,29 +38,26 @@ namespace YouTube_TV_on_Windows
             }
             else
             {
-                webView.Source = new Uri("https://www.youtube.com/tv");
+                webView.Source = new Uri("https://www.youtube.com/tv#/");
             }
-            webView.Focus(FocusState.Programmatic);
         }
 
         async void loadYoutube()
         {
             await webView.EnsureCoreWebView2Async();
-            // Set some TV user agent to get the TV version of the website
-            // https://deviceatlas.com/blog/list-smart-tv-user-agent-strings for different user agents
-            webView.CoreWebView2.Settings.UserAgent = "Mozilla/5.0 (compatible; U; NETFLIX) AppleWebKit/533.3 (KHTML, like Gecko) Qt/4.7.0 Safari/533.3 Netflix/3.2 (DEVTYPE=RKU-42XXX-; CERTVER=0) QtWebKit/2.2, Roku 3/7.0 (Roku, 4200X, Wireless)";
-            webView.Source = new Uri("https://www.youtube.com/tv");
-            webView.CoreWebView2.NavigationCompleted += (s, e) => { focusYoutube(); };
+            // Set some TV user agent to get the TV version of the website https://deviceatlas.com/blog/list-smart-tv-user-agent-strings
+            webView.CoreWebView2.Settings.UserAgent = "Mozilla/5.0 (WebOS; SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.5283.0 Safari/537.36";
+            webView.Source = new Uri("https://www.youtube.com/tv#/");
+            // Show the back button when WebView is loaded
+            webView.CoreWebView2.NavigationCompleted += (s, e) => { currentView.AppViewBackButtonVisibility = AppViewBackButtonVisibility.Visible; };
+            // Focus the webview after the page is loaded
+            webView.CoreWebView2.DOMContentLoaded += (s, e) => { webView.Focus(FocusState.Programmatic); };
+            // Close app when Exit YouTube button is clicked
             webView.CoreWebView2.WindowCloseRequested += (s, e) => { Application.Current.Exit(); };
-            webView.CoreWebView2.ContextMenuRequested += (s, e) => { };
-            webView.Focus(FocusState.Programmatic);
+            // Disable the context menu
+            webView.CoreWebView2.ContextMenuRequested += (s, e) => { e.Handled = true; };
         }
 
-        void focusYoutube()
-        {
-            webView.Focus(FocusState.Programmatic);
-            currentView.AppViewBackButtonVisibility = AppViewBackButtonVisibility.Visible;
-        }
     }
 
 }

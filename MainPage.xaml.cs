@@ -50,10 +50,12 @@ namespace YouTube_TV_on_Windows
             // Disable the context menu
             webView.CoreWebView2.Settings.AreDefaultContextMenusEnabled = false;
             webView.Source = new Uri("https://www.youtube.com/tv#/");
-            // Show the back button when WebView is loaded
-            webView.CoreWebView2.NavigationCompleted += (s, e) => { currentView.AppViewBackButtonVisibility = AppViewBackButtonVisibility.Visible; };
-            // Focus the webview after the page is loaded
-            webView.CoreWebView2.DOMContentLoaded += (s, e) => { webView.Focus(FocusState.Programmatic); };
+            webView.CoreWebView2.NavigationCompleted += (s, e) => {
+                // Show the back button when WebView is loaded
+                currentView.AppViewBackButtonVisibility = AppViewBackButtonVisibility.Visible;
+                // Focus the WebView when it is loaded
+                webView.Focus(FocusState.Programmatic);
+            };
             // Close app when Exit YouTube button is clicked
             webView.CoreWebView2.WindowCloseRequested += (s, e) => { Application.Current.Exit(); };
         }

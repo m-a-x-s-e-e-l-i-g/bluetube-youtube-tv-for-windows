@@ -10,6 +10,7 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        <Button HorizontalAlignment="Stretch" VerticalAlignment="Stretch"></Button> <!-- Helps with focusing issues on app launch -->
         <controls:WebView2 Name="webView">
         </controls:WebView2>
     </Grid>

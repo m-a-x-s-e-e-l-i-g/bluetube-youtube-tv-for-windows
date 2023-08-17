@@ -49,6 +49,7 @@ namespace YouTube_TV_on_Windows
             webView.CoreWebView2.Settings.UserAgent = "Mozilla/5.0 (WebOS; SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.5283.0 Safari/537.36";
             // Disable the context menu
             webView.CoreWebView2.Settings.AreDefaultContextMenusEnabled = false;
+            webView.CoreWebView2.Settings.AreDevToolsEnabled = false;
             webView.Source = new Uri("https://www.youtube.com/tv#/");
             webView.CoreWebView2.NavigationCompleted += (s, e) => {
                 // Show the back button when WebView is loaded

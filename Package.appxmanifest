@@ -7,14 +7,14 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="MAXmade.YouTubeTVonWindows"
+    Name="MAXmade.YouTubeTVforWindows"
     Publisher="CN=MAXmade"
     Version="1.0.0.0" />
 
   <mp:PhoneIdentity PhoneProductId="46c91493-7ccb-4946-a145-275dbe724dcc" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>YouTube TV on Windows</DisplayName>
+    <DisplayName>YouToob TV for Windows</DisplayName>
     <PublisherDisplayName>MAXmade (Max Seelig)</PublisherDisplayName>
     <Logo>Assets\icon.png</Logo>
   </Properties>
@@ -32,10 +32,10 @@
       Executable="$targetnametoken$.exe"
       EntryPoint="YouTube_TV_on_Windows.App">
       <uap:VisualElements
-        DisplayName="YouTube TV on Windows"
+        DisplayName="YouToob TV for Windows"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png"
-        Description="An app to make YouTube TV available to Windows"
+        Description="An app to make YouTube TV available on Windows"
         BackgroundColor="transparent">
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" Square71x71Logo="Assets\SmallTile.png" Square310x310Logo="Assets\LargeTile.png"/>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />

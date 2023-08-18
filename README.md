@@ -23,7 +23,7 @@ Enjoy watching!
 <kbd>2x Esc</kbd> or <kbd>2x Backspace</kbd> to exit application  
 <kbd>F11</kbd> to toggle fullscreen
 
-Navigation also works with mouse but is not recommended!
+Navigation also works with mouse!
 
 ## License and Credits
 

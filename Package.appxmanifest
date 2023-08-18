@@ -7,15 +7,15 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="MAXmade.YouTubeTVforWindows"
-    Publisher="CN=MAXmade"
+    Name="30103MAXmade.470513D47FD6E"
+    Publisher="CN=ACE17462-B2CE-48EB-8464-12A3D333441B"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="46c91493-7ccb-4946-a145-275dbe724dcc" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="84247adc-c2e2-470f-9eb0-c14e36b046ef" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>YouToob TV for Windows</DisplayName>
-    <PublisherDisplayName>MAXmade (Max Seelig)</PublisherDisplayName>
+    <PublisherDisplayName>MAXmade</PublisherDisplayName>
     <Logo>Assets\icon.png</Logo>
   </Properties>
 

@@ -11,6 +11,7 @@
 
     <Grid>
         <Button HorizontalAlignment="Stretch" VerticalAlignment="Stretch"></Button> <!-- Helps with focusing issues on app launch -->
+        <ProgressRing IsActive="True" Width="50" Height="50" VerticalAlignment="Center" HorizontalAlignment="Center" />
         <controls:WebView2 Name="webView">
         </controls:WebView2>
     </Grid>

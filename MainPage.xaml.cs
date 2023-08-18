@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 using Windows.UI.Core;
+using Windows.UI.ViewManagement;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 
@@ -28,6 +29,7 @@ namespace YouTube_TV_on_Windows
             currentView.AppViewBackButtonVisibility = AppViewBackButtonVisibility.Collapsed;
             currentView.BackRequested += CurrentView_BackRequested;
             loadYoutube();
+            Window.Current.Dispatcher.AcceleratorKeyActivated += Dispatcher_AcceleratorKeyActivated;
         }
 
         private void CurrentView_BackRequested(object sender, BackRequestedEventArgs e)
@@ -59,6 +61,22 @@ namespace YouTube_TV_on_Windows
             };
             // Close app when Exit YouTube button is clicked
             webView.CoreWebView2.WindowCloseRequested += (s, e) => { Application.Current.Exit(); };
+        }
+        private void Dispatcher_AcceleratorKeyActivated(CoreDispatcher sender, AcceleratorKeyEventArgs args)
+        {
+            if (args.VirtualKey == Windows.System.VirtualKey.F11 && args.EventType == CoreAcceleratorKeyEventType.KeyUp)
+            {
+                if (ApplicationView.GetForCurrentView().IsFullScreenMode)
+                {
+                    ApplicationView.GetForCurrentView().ExitFullScreenMode();
+                }
+                else
+                {
+                    ApplicationView.GetForCurrentView().TryEnterFullScreenMode();
+                }
+
+                args.Handled = true;
+            }
         }
 
     }

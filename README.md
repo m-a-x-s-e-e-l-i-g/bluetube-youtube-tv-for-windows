@@ -1,4 +1,4 @@
-# <img src="https://raw.githubusercontent.com/m-a-x-s-e-e-l-i-g/youtube-tv-on-windows/main/Assets/icon.png" height="40">YouTube TV on Windows
+# <img src="https://raw.githubusercontent.com/m-a-x-s-e-e-l-i-g/youtube-tv-on-windows/main/Assets/icon.scale-400.png" height="40">YouTube TV on Windows
 An app to make YouTube TV available to Windows.
 
 YouTube used to have a cast to desktop feature, but it was removed some years ago. This app is a workaround to get YouTube TV on Windows. This way you're able to use your phone/tablet as a remote control, and queue videos.

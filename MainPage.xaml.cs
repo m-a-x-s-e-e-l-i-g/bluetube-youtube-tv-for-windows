@@ -7,7 +7,7 @@ using Windows.UI.Xaml.Controls;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
-namespace YouTube_TV_on_Windows
+namespace BlueTube_TV_on_Windows
 {
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33712.159
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouTube TV on Windows", "YouTube TV on Windows.csproj", "{D69FE3B4-98ED-4813-A4BC-5B80515B9456}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueTube - YT TV for Windows", "BlueTube - YT TV for Windows.csproj", "{D69FE3B4-98ED-4813-A4BC-5B80515B9456}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

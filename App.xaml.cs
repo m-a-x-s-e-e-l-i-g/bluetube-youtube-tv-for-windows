@@ -6,7 +6,7 @@ using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Navigation;
 
-namespace YouTube_TV_on_Windows
+namespace BlueTube_TV_on_Windows
 {
     /// <summary>
     /// Provides application-specific behavior to supplement the default Application class.

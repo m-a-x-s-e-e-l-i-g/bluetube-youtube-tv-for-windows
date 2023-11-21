@@ -1,5 +1,6 @@
 # <img src="https://raw.githubusercontent.com/m-a-x-s-e-e-l-i-g/bluetube-youtube-tv-for-windows/main/Assets/icon.scale-100.png" height="40">BlueTube - YT TV for Windows
 An UNOFFICIAL YouTube client to make YouTube TV available on Windows.
+![Screenshot 2023-09-04 235634](https://github.com/m-a-x-s-e-e-l-i-g/bluetube-youtube-tv-for-windows/assets/7907436/ce6ee1ce-49bb-48d6-bcb6-56fc60fe33d6)
 
 YouTube used to have a cast to desktop feature, but it was removed some years ago. This app is a workaround to get YouTube TV on Windows. This way you're able to use your phone/tablet as a remote control, and queue videos.
 This UWP application is a simple WebView2 frame that uses a custom User Agent String, emulating a Smart TV.

@@ -5,7 +5,7 @@ YouTube used to have a cast to desktop feature, but it was removed some years ag
 This UWP application is a simple WebView2 frame that uses a custom User Agent String, emulating a Smart TV.
 
 # Installation
-[<img alt="Get it from Microsoft" width="200px" src="https://upload.wikimedia.org/wikipedia/commons/f/f7/Get_it_from_Microsoft_Badge.svg" href=""/>](https://www.microsoft.com/store/apps/9N9308Z33G51)
+[<img alt="Get it from Microsoft" width="200px" src="https://upload.wikimedia.org/wikipedia/commons/f/f7/Get_it_from_Microsoft_Badge.svg" href=""/>](https://www.microsoft.com/store/apps/9PJSM21XX9V3)
 <br>
 
 # Usage

@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("YouToob TV for Windows")]
-[assembly: AssemblyDescription("An app to make YouTube TV available on Windows")]
+[assembly: AssemblyTitle("BlueTube - YT TV for Windows")]
+[assembly: AssemblyDescription("Unofficial YouTube TV client available on Windows")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("MAXmade")]
-[assembly: AssemblyProduct("YouToob TV for Windows")]
+[assembly: AssemblyProduct("BlueTube - YT TV for Windows")]
 [assembly: AssemblyCopyright("MAXmade")]
 [assembly: AssemblyTrademark("MAXmade")]
 [assembly: AssemblyCulture("")]

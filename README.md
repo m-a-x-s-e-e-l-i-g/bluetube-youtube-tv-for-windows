@@ -1,4 +1,4 @@
-# <img src="https://raw.githubusercontent.com/m-a-x-s-e-e-l-i-g/youtube-tv-on-windows/main/Assets/icon.scale-100.png" height="40">BlueTube - YT TV for Windows
+# <img src="https://raw.githubusercontent.com/m-a-x-s-e-e-l-i-g/bluetube-youtube-tv-for-windows/main/Assets/icon.scale-100.png" height="40">BlueTube - YT TV for Windows
 An UNOFFICIAL YouTube client to make YouTube TV available on Windows.
 
 YouTube used to have a cast to desktop feature, but it was removed some years ago. This app is a workaround to get YouTube TV on Windows. This way you're able to use your phone/tablet as a remote control, and queue videos.

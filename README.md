@@ -1,4 +1,4 @@
-# <img src="https://raw.githubusercontent.com/m-a-x-s-e-e-l-i-g/bluetube-youtube-tv-for-windows/main/Assets/icon.scale-100.png" height="40">BlueTube - YT TV for Windows
+# <img src="https://raw.githubusercontent.com/m-a-x-s-e-e-l-i-g/bluetube-youtube-tv-for-windows/main/Assets/icon.scale-100.png" height="40">BlueTube - YouTube TV for Windows
 An UNOFFICIAL YouTube client to make YouTube TV available on Windows.
 ![Screenshot 2023-09-04 235634](https://github.com/m-a-x-s-e-e-l-i-g/bluetube-youtube-tv-for-windows/assets/7907436/ce6ee1ce-49bb-48d6-bcb6-56fc60fe33d6)
 

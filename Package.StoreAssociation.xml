@@ -361,11 +361,13 @@
     <Language Code="zu-za" InMinimumRequirementSet="true" />
   </SupportedLocales>
   <ProductReservedInfo>
-    <MainPackageIdentityName>30103MAXmade.470513D47FD6E</MainPackageIdentityName>
+    <MainPackageIdentityName>30103MAXmade.552173E955D6</MainPackageIdentityName>
     <ReservedNames>
-      <ReservedName>YouToob TV for Windows</ReservedName>
+      <ReservedName>BlueTube - YT TV for Windows</ReservedName>
     </ReservedNames>
   </ProductReservedInfo>
-  <AccountPackageIdentityNames />
-  <PackageInfoList LandingUrl="https://developer.microsoft.com/dashboard/Application?appId=9N9308Z33G51" />
+  <AccountPackageIdentityNames>
+    <MainPackageIdentityName>30103MAXmade.470513D47FD6E</MainPackageIdentityName>
+  </AccountPackageIdentityNames>
+  <PackageInfoList LandingUrl="https://developer.microsoft.com/dashboard/Application?appId=9PJSM21XX9V3" />
 </StoreAssociation>
